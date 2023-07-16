@@ -1,0 +1,100 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300;1,400&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --red:#D01C28;
+    --grey:#5A5959;
+}
+
+*{
+    margin: 0;
+}
+
+button
+{git
+all: unset;
+background: var(--red);
+height: 32px;
+color: aliceblue;
+font-weight:500;
+padding: 6px 16px;
+
+}
+.container
+{
+     max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    height: cal(100vh-72);
+
+
+}
+.hero-content {
+    display: flex;
+   flex-direction: column;
+    gap: 36px;
+
+    
+}
+.hero-content h1 {
+   align-items: center;
+    max-width: 595px ;
+    
+}
+.hero h1{
+  
+    font-weight: 800;
+    font-size: 108px;
+    line-height: 102px;
+
+}
+.hero p{
+  
+    font-weight: 600;
+    color:var(--grey);
+    max-width: 400px;
+  
+
+}
+
+.her-button
+{
+    display: flex;
+    gap: 40px;
+   
+}
+.her-button-sec
+{
+   background: transparent;
+   color: var(--grey);
+   border: 1px solid green;
+}
+.shopping p
+{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.ecommerse
+{
+    display: flex;
+    gap: 16px;
+}
