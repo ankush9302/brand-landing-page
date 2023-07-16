@@ -1,2 +1,3 @@
-this is a sample brand landing page for brands like nike.created using react
+this is a sample brand landing page for brands 
+.i created this using react
 
